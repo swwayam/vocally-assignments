@@ -1,0 +1,38 @@
+.socials{
+    position: absolute;
+    right: 3.5rem;
+    font-size: 1rem;
+    bottom: 1rem;
+}
+
+.socials-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right:.4rem ;
+}
+
+.socials a{
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.socials-links__link{
+    margin-left:1.6rem;
+}
+
+@media screen and (max-width: 780px){
+
+    .socials{
+        width: 100%;
+        left: .1rem;
+    }
+
+    .socials-links{
+        justify-content: space-evenly;
+    }
+
+    .socials-links__link{
+        margin-left:1.6rem;
+    }
+}

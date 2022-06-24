@@ -1,0 +1,7 @@
+.mainContainer{
+    background-color: var(--home-bg);
+  }
+
+.downloadInfoContainer{
+    background-color: var(--downloadInfo-bg);
+}

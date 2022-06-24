@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+:root{
+  --white: #ffff;
+  --grey : #f7f7f7c5;
+  --home-bg: #131a22;
+  --downloadInfo-bg: #151922;
+  --line-color: #11161f;
+}
+
+.common-btn{
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    color: var(--grey);
+    border-color: var(--grey);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.common-padding{
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+
+
+@media screen and (max-width: 780px){
+  .common-padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+}

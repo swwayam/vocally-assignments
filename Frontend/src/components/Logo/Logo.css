@@ -1,0 +1,11 @@
+.logo-name{
+    color: var(--white);
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.logo-icon{
+    font-size: 2rem;
+    padding-top: .5rem;
+    color: var(--white);
+}
